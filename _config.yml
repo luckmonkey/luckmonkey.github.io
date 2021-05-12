@@ -1,0 +1,12 @@
+title:         知日志
+description:   The official blog of 知日志, creator of Start Bootstrap
+baseurl:       ""
+url:           ""
+
+# Build settings
+markdown:      kramdown
+paginate:      5
+paginate_path: "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
